@@ -1,0 +1,5 @@
+# Large binary files
+*.run
+*.om
+*.onnx
+*.whl
