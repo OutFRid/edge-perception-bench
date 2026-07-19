@@ -20,7 +20,7 @@
 
 ## 当前进度
 
-- [ ] 昇腾环境部署（CANN 驱动 + ONNX Runtime Ascend）
+- [x] 昇腾环境部署（CANN 驱动 + ONNX Runtime Ascend）
 - [ ] DMD 数据集加载与预处理
 - [ ] YOLOv8-nano 基准推理 + 逐层 profiling
 - [ ] MobileNetV3 基准推理 + 逐层 profiling
@@ -35,6 +35,30 @@
 | MobileNetV3-Small | 224×224 | 2.5M | — | — ms | 分类基线 |
 
 *表格随实验推进逐步填充。*
+
+## 环境配置
+
+### DK 网络设置（手动执行，重启后需重新运行）
+
+```bash
+# Windows 端：先开启网络共享
+# ncpa.cpl → 右键上网网卡 → 属性 → 共享 → 勾选并选择 USB RNDIS6 适配器
+
+# DK 端：删除旧 IP，设置固定 IP + 路由 + DNS
+# 执行后 SSH 会断，用 ssh root@192.168.137.2 重连
+ip addr del 192.168.0.2/24 dev usb0 2>/dev/null
+ip addr add 192.168.137.2/24 dev usb0
+ip route replace default via 192.168.137.1 dev usb0
+echo "nameserver 8.8.8.8" > /etc/resolv.conf
+echo "nameserver 114.114.114.114" >> /etc/resolv.conf
+```
+
+### CANN 环境初始化
+
+```bash
+source /usr/local/Ascend/ascend-toolkit/set_env.sh
+python3 -c "import acl; print('pyACL OK')"
+```
 
 ## 项目结构
 
