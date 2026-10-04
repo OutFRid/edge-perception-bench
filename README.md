@@ -21,11 +21,14 @@
 ## 当前进度
 
 - [x] 昇腾环境部署（CANN 驱动 + ONNX Runtime Ascend）
-- [ ] DMD 数据集加载与预处理
-- [ ] YOLOv8-nano 基准推理 + 逐层 profiling
-- [ ] MobileNetV3 基准推理 + 逐层 profiling
+- [x] DMD 数据集加载 + YOLOv8-nano → OM → **ACL 推理第一帧**（2026-07-20，见 `results/doc/`）
+- [ ] 修复第一帧人框偏移
+- [ ] 换模型（MobileNetV3）基准推理 + 逐层 profiling
 - [ ] INT8 量化对比
 - [ ] 延时 / 功耗 / 精度 可视化
+
+> 📅 完整周度排期与进度追踪见 **[docs/项目日历.md](docs/项目日历.md)**，每周更新一条周志（`docs/weekly/`）。
+> 项目于 2026-07-21 ~ 10-03 因故停摆，2026-10-04 起重新基线推进。
 
 ## 基准模型
 
@@ -65,10 +68,22 @@ python3 -c "import acl; print('pyACL OK')"
 ```
 edge-perception-bench/
 ├── README.md
+├── docs/
+│   ├── 项目日历.md            # 周度排期 + 进度追踪（每周更新）
+│   ├── 技术路线.md            # 方法论 + 学习资源索引
+│   └── weekly/                # 每周一条周志
 ├── scripts/
-│   └── check_env.py       # 环境检测脚本
+│   ├── check_env.py           # 环境检测
+│   ├── check_env_ascend.py    # 昇腾环境检测
+│   ├── acl_diag.py            # ACL 诊断
+│   ├── export_yolov8_onnx.py  # 模型导出 ONNX
+│   ├── convert_onnx_to_om.sh  # ONNX → OM 离线编译
+│   ├── infer_yolo_frame.py    # 单帧推理
+│   └── infer_yolo_acl.py      # ACL 端到端推理流水线
 ├── results/
-│   └── charts/            # 性能图表
+│   ├── doc/                   # 阶段记录文档
+│   ├── image/                 # 推理结果图
+│   └── charts/                # 性能图表
 └── requirements.txt
 ```
 
