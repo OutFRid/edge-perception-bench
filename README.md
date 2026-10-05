@@ -22,7 +22,7 @@
 
 - [x] 昇腾环境部署（CANN 驱动 + ONNX Runtime Ascend）
 - [x] DMD 数据集加载 + YOLOv8-nano → OM → **ACL 推理第一帧**（2026-07-20，见 `results/doc/`）
-- [ ] 修复第一帧人框偏移
+- [x] 修复第一帧人框偏移（2026-10-05，根因为坐标反变换缺失，见 `docs/weekly/` R1 与 `results/image/result_frame0_fixed.jpg`）
 - [ ] 换模型（MobileNetV3）基准推理 + 逐层 profiling
 - [ ] INT8 量化对比
 - [ ] 延时 / 功耗 / 精度 可视化
@@ -41,20 +41,34 @@
 
 ## 环境配置
 
-### DK 网络设置（手动执行，重启后需重新运行）
+### DK 网络配置（usb0 静态 IP 192.168.137.2，已持久化）
+
+> 2026-10-05 更新：管理口 IP 已由常驻 systemd watchdog 持久化，**开机 / USB 拔插 / 断电重启后 137.2 会自动回来，不再需要每次手动执行**。根因与方案详见 [docs/DK网络持久化配置.md](docs/DK网络持久化配置.md)。
+
+**Windows 端（一次性）**：开启网络共享，让 PC 成为网关 `192.168.137.1`
+
+```
+ncpa.cpl → 右键上网网卡 → 属性 → 共享 → 勾选并选择 USB RNDIS6 适配器
+```
+
+**DK 端（一次性安装，之后自动生效）**：把 `scripts/board/` 拷到板子后运行安装脚本
 
 ```bash
-# Windows 端：先开启网络共享
-# ncpa.cpl → 右键上网网卡 → 属性 → 共享 → 勾选并选择 USB RNDIS6 适配器
+cd board && sudo bash install-network-fix.sh
+# 装完立即生效；重启后由 dk-usb0-fix.service 常驻巡检（每 15s 自愈）保持 137.2
+```
 
-# DK 端：删除旧 IP，设置固定 IP + 路由 + DNS
+<details>
+<summary>临时手动应急（未装持久化时，或 watchdog 被停用时）</summary>
+
+```bash
 # 执行后 SSH 会断，用 ssh root@192.168.137.2 重连
 ip addr del 192.168.0.2/24 dev usb0 2>/dev/null
 ip addr add 192.168.137.2/24 dev usb0
 ip route replace default via 192.168.137.1 dev usb0
-echo "nameserver 8.8.8.8" > /etc/resolv.conf
-echo "nameserver 114.114.114.114" >> /etc/resolv.conf
 ```
+
+</details>
 
 ### CANN 环境初始化
 
@@ -71,8 +85,10 @@ edge-perception-bench/
 ├── docs/
 │   ├── 项目日历.md            # 周度排期 + 进度追踪（每周更新）
 │   ├── 技术路线.md            # 方法论 + 学习资源索引
+│   ├── DK网络持久化配置.md    # usb0 静态 IP 持久化根因与方案
 │   └── weekly/                # 每周一条周志
 ├── scripts/
+│   ├── board/                 # 板子侧网络持久化（watchdog + 一键安装）
 │   ├── check_env.py           # 环境检测
 │   ├── check_env_ascend.py    # 昇腾环境检测
 │   ├── acl_diag.py            # ACL 诊断
@@ -89,7 +105,8 @@ edge-perception-bench/
 
 ## 关联文章
 
-本项目的进度日志和设计思路见 [OutFRidBlog](https://github.com/你的用户名/OutFRidBlog)：
+本项目的进度日志和设计思路见 [OutFRidBlog](https://github.com/OutFRid/OutFRidBlog)：
+- [昇腾 Atlas 200I DK 管理口 IP 持久化：踩坑、根因与常驻 watchdog 方案](https://github.com/OutFRid/OutFRidBlog)（2026-10-05）
 - 待发布...
 
 ## License

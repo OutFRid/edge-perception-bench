@@ -201,15 +201,33 @@ COCO_CLASSES = [
 ]
 
 
-def preprocess(frame: np.ndarray, imgsz: int = 640) -> np.ndarray:
-    img = cv2.resize(frame, (imgsz, imgsz))
-    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-    img = img.astype(np.float32) / 255.0
+def preprocess(frame: np.ndarray, imgsz: int = 640, color=(114, 114, 114)):
+    """Letterbox resize keeping aspect ratio (Ultralytics-style).
+
+    Returns (tensor, ratio, (pad_left, pad_top)); ratio/pad are needed to map
+    detection boxes back to the original image coordinate system.
+    """
+    h0, w0 = frame.shape[:2]
+    r = min(imgsz / h0, imgsz / w0)                 # scale ratio
+    new_w, new_h = int(round(w0 * r)), int(round(h0 * r))
+    resized = cv2.resize(frame, (new_w, new_h), interpolation=cv2.INTER_LINEAR)
+    canvas = np.full((imgsz, imgsz, 3), color, dtype=np.uint8)
+    dw, dh = imgsz - new_w, imgsz - new_h           # total padding
+    left, top = dw // 2, dh // 2                     # centered padding
+    canvas[top:top + new_h, left:left + new_w] = resized
+    img = cv2.cvtColor(canvas, cv2.COLOR_BGR2RGB).astype(np.float32) / 255.0
     img = np.transpose(img, (2, 0, 1))
-    return np.expand_dims(img, axis=0)
+    return np.expand_dims(img, axis=0), r, (left, top)
 
 
-def postprocess(output: np.ndarray, conf: float = 0.25, iou: float = 0.45) -> list[dict]:
+def postprocess(output: np.ndarray, ratio: float, pad: tuple, orig_shape: tuple,
+                conf: float = 0.25, iou: float = 0.45) -> list[dict]:
+    """Decode YOLOv8 output, run NMS, and map boxes back to original image coords.
+
+    ratio/pad come from letterbox preprocessing; orig_shape is (w, h) of the
+    source frame. Boxes are produced in the 640x640 letterbox space and must be
+    un-padded and un-scaled, otherwise drawing them on the source frame is offset.
+    """
     output = np.squeeze(output)
     output = np.transpose(output)
 
@@ -226,24 +244,38 @@ def postprocess(output: np.ndarray, conf: float = 0.25, iou: float = 0.45) -> li
     cx, cy, w, h = boxes_raw[:, 0], boxes_raw[:, 1], boxes_raw[:, 2], boxes_raw[:, 3]
     x1, y1 = cx - w / 2, cy - h / 2
     x2, y2 = cx + w / 2, cy + h / 2
-    boxes_xyxy = np.stack([x1, y1, x2, y2], axis=1).clip(0, None)
 
+    # cv2.dnn.NMSBoxes expects [x, y, width, height], NOT [x1, y1, x2, y2].
+    nms_boxes = [[float(x1[i]), float(y1[i]), float(x2[i] - x1[i]), float(y2[i] - y1[i])]
+                 for i in range(len(x1))]
     indices = cv2.dnn.NMSBoxes(
-        bboxes=boxes_xyxy.tolist(),
+        bboxes=nms_boxes,
         scores=confs.tolist(),
         score_threshold=conf,
         nms_threshold=iou,
     )
 
+    pad_left, pad_top = pad
+    orig_w, orig_h = orig_shape
     detections = []
     indices_flat = indices.flatten() if len(indices) else []
     for i in indices_flat:
         idx = int(i)
+        # letterbox space -> original image space
+        bx1 = (x1[idx] - pad_left) / ratio
+        by1 = (y1[idx] - pad_top) / ratio
+        bx2 = (x2[idx] - pad_left) / ratio
+        by2 = (y2[idx] - pad_top) / ratio
+        bx1 = min(max(bx1, 0), orig_w)
+        bx2 = min(max(bx2, 0), orig_w)
+        by1 = min(max(by1, 0), orig_h)
+        by2 = min(max(by2, 0), orig_h)
         detections.append({
             "class": int(class_ids[idx]),
             "label": COCO_CLASSES[int(class_ids[idx])],
             "confidence": round(float(confs[idx]), 4),
-            "bbox": [round(float(v), 1) for v in boxes_xyxy[idx]],
+            "bbox": [round(float(bx1), 1), round(float(by1), 1),
+                     round(float(bx2), 1), round(float(by2), 1)],
         })
     return detections
 
@@ -278,9 +310,9 @@ def main():
     print(f"Video : {video_path.name}")
     print(f"       {w}x{h}, {total} frames, {fps:.1f} fps")
 
-    # ---- 2. Preprocess ----
-    tensor = preprocess(frame)
-    print(f"Tensor: {tensor.shape}  {tensor.dtype}")
+    # ---- 2. Preprocess (letterbox, keep aspect ratio) ----
+    tensor, ratio, pad = preprocess(frame)
+    print(f"Tensor: {tensor.shape}  {tensor.dtype}  ratio={ratio:.4f}  pad={pad}")
 
     # ---- 3. Init ACL + load model + infer ----
     print("\n--- ACL Init ---")
@@ -298,8 +330,8 @@ def main():
     model.destroy()
     ctx.destroy()
 
-    # ---- 4. Postprocess ----
-    detections = postprocess(outputs[0])
+    # ---- 4. Postprocess (map boxes back to original image coords) ----
+    detections = postprocess(outputs[0], ratio, pad, (w, h))
 
     # ---- 5. Report ----
     latency_ms = (t1 - t0) * 1000
