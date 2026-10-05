@@ -1,0 +1,13 @@
+[Unit]
+Description=Enforce static IP 192.168.137.2 on Ascend DK usb0 gadget (resident watchdog)
+After=network-online.target connman.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/dk-usb0-fix.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

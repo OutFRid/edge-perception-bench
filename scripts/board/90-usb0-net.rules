@@ -1,0 +1,3 @@
+# Re-assert 192.168.137.2 on the RNDIS gadget iface every time usb0 appears
+# (covers boot AND host USB replug). Fires the systemd oneshot that does the work.
+ACTION=="add", SUBSYSTEM=="net", KERNEL=="usb0", RUN+="/bin/systemctl --no-block start dk-usb0-fix.service"
