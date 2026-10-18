@@ -1,0 +1,15 @@
+{
+  "frames": 60,
+  "person_frames": 60,
+  "stage_ms_mean": {
+    "decode": 7.58,
+    "preprocess": 21.88,
+    "h2d": 8.62,
+    "execute": 12.87,
+    "sync": 0.08,
+    "d2h": 1.63,
+    "postprocess": 29.88,
+    "render": 61.5
+  },
+  "e2e_ms_mean": 144.03
+}

@@ -5,7 +5,7 @@
 > - **参考骨架**：`mindsdk-referenceapps/VisionSDK/YOLOv7Detection/main.cpp` + `plugin/Yolov7PostProcess.cpp`（C++ / MxBase 封装）
 > - **本项目实现**：`edge-perception-bench/scripts/infer_yolo_acl.py`（Python / 裸 ACL API）
 >
-> 对应 `docs/技术路线.md` 前置学习 ①②④⑤ 与 ⑤ 的「执行原则映射表」；也是 R1 周志「下一步学习目标」#1、#2 的落地物。
+> 对应 `docs/技术路线.md` 前置学习 ①②④⑤ 与 ⑤ 的「执行原则映射表」；也是 R1 周志「下一步学习目标」#1、#2 的落地物。#3「分阶段实测耗时」已由 R2 连板 `infer_dms_pipeline.py` 回填（见 §9）。
 
 ---
 
@@ -185,14 +185,25 @@ letterbox 空间框 `[83.25, 358.5, 261.5, 497.5]`，`r=0.5, pad_left=0, pad_top
 
 ---
 
-## 9. 待补（给 R4 / R7 留位）
+## 9. 分阶段耗时实测（R2 连板落地）
 
-跑通样例后用 `msprof` 采集，填这张表，验证本心智模型与真实一致：
+> 方法学说明：下表是 **R2 用 `scripts/infer_dms_pipeline.py` 在板端逐帧 wall-clock 分段计时**的均值（60 帧，DMD `gA/1/s1` mosaic 片段，1280×720，COCO yolov8n.om）。它验证了「数据流心智模型与真实一致」，但**还不是 `msprof` 的 device 侧逐层口径**——AI Core 真正算力/逐层延时留 R4 用 `msprof` 精测。
+> 注意 `execute` 在此被拆成两段：`execute`=异步入队调用返回耗时，`sync`=`synchronize_stream` 等待真正算完的栅栏耗时；两者相加才约等于「NPU 计算」。
 
-| 阶段 | 实测耗时 | 占比 | 在 Host/Device | 备注 |
-|---|---|---|---|---|
-| 预处理 preprocess | _待测_ | | Host | 疑似大头，重点量 |
-| H2D memcpy | _待测_ | | 跨总线 | 与输入字节数线性相关 |
-| execute（AI Core） | _待测_ | | Device | 模型本体 |
-| D2H memcpy | _待测_ | | 跨总线 | 输出 (84,8400) 不小 |
-| 后处理 postprocess | _待测_ | | Host | NMS 视候选框数量 |
+| 阶段 | 实测 ms/帧 | 占比 | 在 Host/Device | 结论 |
+|---|---:|---:|---|---|
+| 解码 decode | 7.58 | 5.3% | Host | `VideoCapture.read` |
+| **预处理 preprocess** | **21.88** | **15.2%** | Host | ✅ 印证 §7 预判：**比 NPU 计算还久** |
+| H2D memcpy | 8.62 | 6.0% | 跨总线 | 3MB 输入，量级可控 |
+| execute（入队） | 12.87 | 8.9% | Device | AI Core 跑 OM |
+| sync（栅栏） | 0.08 | 0.1% | Device→Host | 入队后已接近算完 |
+| D2H memcpy | 1.63 | 1.1% | 跨总线 | 输出 (84,8400) 拷贝很快 |
+| **后处理 postprocess** | **29.88** | **20.7%** | Host | NMS + 逆映射，候选框多则更贵 |
+| render 写视频 | 61.50 | 42.7% | Host | 仅「出标注视频」时才有；纯基准应扣除 |
+| **E2E 合计** | **144.03** | — | — | ≈ 6.94 fps |
+
+**三个被数据敲实的认知点**：
+1. **Host CPU 才是单帧延时大头**：`preprocess + postprocess = 51.8ms`，远超 NPU 侧 `execute + sync + 拷贝 = 23.2ms`。「优化推理」若只盯 NPU 会南辕北辙——这正是 R7（DVPP 替 OpenCV 预处理）要动刀的地方。
+2. **「推理调用延时 27ms」≠ 端到端**：R1 报的 27ms 只夹了 H2D+execute+sync+D2H（≈ 23ms 量级），不含前后处理；端到端 144ms（含渲染），去掉渲染仍约 82ms。
+3. **D2H 比想象快、H2D 比想象贵**：输出虽 (84,8400) 但一次连续拷贝仅 1.6ms；输入 3MB 反因需要 `ascontiguousarray`+跨总线拷到 device 化 8.6ms。R4 用 `msprof` 再确认设备侧真实占比。
+
