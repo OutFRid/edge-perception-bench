@@ -1,0 +1,70 @@
+[
+  {
+    "om": "/mnt/e61/workspace/dmd/model/yolov8s.om",
+    "in_bytes": [
+      4915200
+    ],
+    "out_bytes": [
+      2822400
+    ],
+    "iters": 200,
+    "compute_ms": {
+      "mean": 25.327,
+      "median": 25.185,
+      "p95": 25.561,
+      "min": 24.931,
+      "max": 30.742
+    },
+    "h2d_ms": {
+      "mean": 1.622,
+      "median": 1.635,
+      "p95": 1.813,
+      "min": 1.463,
+      "max": 1.872
+    },
+    "d2h_ms": {
+      "mean": 1.588,
+      "median": 1.587,
+      "p95": 1.76,
+      "min": 1.44,
+      "max": 1.889
+    },
+    "total_infer_ms": 28.537,
+    "fps": 35.0,
+    "tag": "yolov8s_det"
+  },
+  {
+    "om": "/mnt/e61/workspace/dmd/model/yolov8n.om",
+    "in_bytes": [
+      4915200
+    ],
+    "out_bytes": [
+      2822400
+    ],
+    "iters": 200,
+    "compute_ms": {
+      "mean": 12.96,
+      "median": 12.789,
+      "p95": 13.051,
+      "min": 12.554,
+      "max": 22.721
+    },
+    "h2d_ms": {
+      "mean": 1.589,
+      "median": 1.584,
+      "p95": 1.774,
+      "min": 1.426,
+      "max": 2.054
+    },
+    "d2h_ms": {
+      "mean": 1.581,
+      "median": 1.569,
+      "p95": 1.718,
+      "min": 1.441,
+      "max": 1.957
+    },
+    "total_infer_ms": 16.13,
+    "fps": 62.0,
+    "tag": "yolov8n_det"
+  }
+]
