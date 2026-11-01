@@ -3,3 +3,7 @@
 *.om
 *.onnx
 *.whl
+
+# Python caches
+__pycache__/
+*.pyc

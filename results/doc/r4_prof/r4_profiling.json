@@ -1,0 +1,244 @@
+{
+  "model": "yolov8n.om (FP32 OM, HW:3519 / Ascend310B3)",
+  "single_forward": {
+    "num_ops": 105,
+    "total_task_time_ms": 11.905,
+    "by_pipe_ms": {
+      "vec": 1.872,
+      "mac": 1.663,
+      "mte1": 0.665,
+      "mte2": 2.601,
+      "mte3": 1.804,
+      "fixpipe": 0.59
+    },
+    "top15_ops": [
+      {
+        "op": "/model.0/conv/Conv/model.0/act/Sigmoid/model.0/act/Mul",
+        "type": "Conv2D",
+        "dur_us": 1258.2,
+        "aicore_us": 533.0,
+        "vec_us": 121.7,
+        "mac_us": 92.6,
+        "mte2_us": 489.1,
+        "fixpipe_us": 188.1
+      },
+      {
+        "op": "PartitionedCall_/model.22/dfl/Transpose_1_Transpose_64",
+        "type": "Transpose",
+        "dur_us": 861.9,
+        "aicore_us": 366.2,
+        "vec_us": 97.2,
+        "mac_us": 0.0,
+        "mte2_us": 57.5,
+        "fixpipe_us": 0.0
+      },
+      {
+        "op": "/model.22/dfl/Softmax",
+        "type": "SoftmaxV2",
+        "dur_us": 817.5,
+        "aicore_us": 347.3,
+        "vec_us": 346.3,
+        "mac_us": 0.0,
+        "mte2_us": 22.3,
+        "fixpipe_us": 0.0
+      },
+      {
+        "op": "trans_TransData_1",
+        "type": "TransData",
+        "dur_us": 754.9,
+        "aicore_us": 320.6,
+        "vec_us": 129.5,
+        "mac_us": 0.0,
+        "mte2_us": 131.0,
+        "fixpipe_us": 0.0
+      },
+      {
+        "op": "PartitionedCall_/model.22/dfl/Transpose_Transpose_61",
+        "type": "Transpose",
+        "dur_us": 426.0,
+        "aicore_us": 180.7,
+        "vec_us": 35.7,
+        "mac_us": 0.0,
+        "mte2_us": 132.6,
+        "fixpipe_us": 0.0
+      },
+      {
+        "op": "/model.1/conv/Conv/model.1/act/Sigmoid/model.1/act/Mul",
+        "type": "Conv2D",
+        "dur_us": 408.0,
+        "aicore_us": 173.0,
+        "vec_us": 60.9,
+        "mac_us": 46.2,
+        "mte2_us": 147.6,
+        "fixpipe_us": 27.1
+      },
+      {
+        "op": "trans_Cast_0",
+        "type": "Cast",
+        "dur_us": 368.0,
+        "aicore_us": 155.0,
+        "vec_us": 21.1,
+        "mac_us": 0.0,
+        "mte2_us": 153.0,
+        "fixpipe_us": 0.0
+      },
+      {
+        "op": "/model.22/cv3.0/cv3.0.1/conv/Conv/model.22/cv3.0/cv3.0.1/act/Sigmoid/model.22/cv3.0/cv3.0.1/act/Mul",
+        "type": "Conv2D",
+        "dur_us": 360.5,
+        "aicore_us": 152.8,
+        "vec_us": 41.6,
+        "mac_us": 136.4,
+        "mte2_us": 80.5,
+        "fixpipe_us": 19.6
+      },
+      {
+        "op": "/model.22/cv3.0/cv3.0.0/conv/Conv/model.22/cv3.0/cv3.0.0/act/Sigmoid/model.22/cv3.0/cv3.0.0/act/Mul",
+        "type": "Conv2D",
+        "dur_us": 298.8,
+        "aicore_us": 126.6,
+        "vec_us": 41.0,
+        "mac_us": 74.9,
+        "mte2_us": 79.5,
+        "fixpipe_us": 9.5
+      },
+      {
+        "op": "/model.2/cv1/conv/Conv/model.2/cv1/act/Sigmoid/model.2/cv1/act/Mul",
+        "type": "Conv2D",
+        "dur_us": 217.8,
+        "aicore_us": 92.1,
+        "vec_us": 60.4,
+        "mac_us": 85.4,
+        "mte2_us": 27.3,
+        "fixpipe_us": 12.9
+      },
+      {
+        "op": "/model.2/cv2/conv/Conv/model.2/cv2/act/Sigmoid/model.2/cv2/act/Mul",
+        "type": "Conv2D",
+        "dur_us": 217.4,
+        "aicore_us": 91.9,
+        "vec_us": 60.4,
+        "mac_us": 69.8,
+        "mte2_us": 31.1,
+        "fixpipe_us": 12.4
+      },
+      {
+        "op": "/model.22/cv2.0/cv2.0.0/conv/Conv/model.22/cv2.0/cv2.0.0/act/Sigmoid/model.22/cv2.0/cv2.0.0/act/Mul",
+        "type": "Conv2D",
+        "dur_us": 209.1,
+        "aicore_us": 88.4,
+        "vec_us": 32.8,
+        "mac_us": 47.9,
+        "mte2_us": 19.3,
+        "fixpipe_us": 7.3
+      },
+      {
+        "op": "/model.22/cv2.0/cv2.0.1/conv/Conv/model.22/cv2.0/cv2.0.1/act/Sigmoid/model.22/cv2.0/cv2.0.1/act/Mul",
+        "type": "Conv2D",
+        "dur_us": 180.5,
+        "aicore_us": 76.2,
+        "vec_us": 32.8,
+        "mac_us": 47.9,
+        "mte2_us": 7.2,
+        "fixpipe_us": 7.3
+      },
+      {
+        "op": "/model.15/cv1/conv/Conv/model.15/cv1/act/Sigmoid/model.15/cv1/act/Mul",
+        "type": "Conv2D",
+        "dur_us": 146.5,
+        "aicore_us": 61.8,
+        "vec_us": 30.7,
+        "mac_us": 38.0,
+        "mte2_us": 42.0,
+        "fixpipe_us": 24.4
+      },
+      {
+        "op": "/model.5/conv/Conv/model.5/act/Sigmoid/model.5/act/Mul",
+        "type": "Conv2D",
+        "dur_us": 143.3,
+        "aicore_us": 60.4,
+        "vec_us": 18.2,
+        "mac_us": 48.1,
+        "mte2_us": 31.0,
+        "fixpipe_us": 8.1
+      }
+    ],
+    "by_op_type": {
+      "Conv2D": {
+        "count": 64,
+        "total_ms": 7.049
+      },
+      "Transpose": {
+        "count": 2,
+        "total_ms": 1.288
+      },
+      "TransData": {
+        "count": 9,
+        "total_ms": 1.135
+      },
+      "SoftmaxV2": {
+        "count": 1,
+        "total_ms": 0.817
+      },
+      "ConcatD": {
+        "count": 10,
+        "total_ms": 0.653
+      },
+      "Cast": {
+        "count": 2,
+        "total_ms": 0.496
+      },
+      "Add": {
+        "count": 7,
+        "total_ms": 0.178
+      },
+      "Sigmoid": {
+        "count": 1,
+        "total_ms": 0.115
+      },
+      "ResizeNearestNeighborV2": {
+        "count": 2,
+        "total_ms": 0.109
+      },
+      "MaxPoolV3": {
+        "count": 3,
+        "total_ms": 0.044
+      },
+      "StridedSliceD": {
+        "count": 2,
+        "total_ms": 0.009
+      },
+      "Mul": {
+        "count": 1,
+        "total_ms": 0.006
+      },
+      "Sub": {
+        "count": 1,
+        "total_ms": 0.006
+      }
+    }
+  },
+  "runtime_api": [
+    {
+      "api": "DevMalloc",
+      "level": "runtime",
+      "total_us": "584.229",
+      "count": "4",
+      "avg_us": "146.0573",
+      "max_us": "301.459"
+    },
+    {
+      "api": "MemCopySync",
+      "level": "runtime",
+      "total_us": "2244.437",
+      "count": "1",
+      "avg_us": "2244.437",
+      "max_us": "2244.437"
+    }
+  ],
+  "npu_memory_mib": {
+    "base_used": 1681,
+    "peak_used_samples": 1688,
+    "samples": 14
+  }
+}
