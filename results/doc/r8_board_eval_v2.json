@@ -1,0 +1,161 @@
+{
+  "eval_frames": 16,
+  "models": {
+    "fp32": "/mnt/e61/workspace/dmd/model/yolov8n.om",
+    "int8": "/root/epb/models/yolov8n_s3_int8_v2.om"
+  },
+  "accuracy": {
+    "output_cosine_mean": 0.97161,
+    "output_cosine_min": 0.9709,
+    "det_count_mean": {
+      "fp32": 1.69,
+      "int8": 1
+    },
+    "person_conf_mean": {
+      "fp32": 0.8011,
+      "int8": 0.6428
+    },
+    "matched_box_iou_mean": 0.0,
+    "matched_box_iou_min": 0.0
+  },
+  "board_exec_ms": {
+    "fp32": {
+      "mean": 12.925,
+      "median": 12.836
+    },
+    "int8": {
+      "mean": 11.665,
+      "median": 11.377
+    }
+  },
+  "per_frame": [
+    {
+      "clip": "/mnt/e61/workspace/dmd/gA/1/s1/gA_1_s1_2019-03-08T09;31;15+01;00_rgb_mosaic.avi",
+      "cosine": 0.97156,
+      "det_fp32": 1,
+      "det_int8": 1,
+      "exec_fp32_ms": 12.846,
+      "exec_int8_ms": 11.456
+    },
+    {
+      "clip": "/mnt/e61/workspace/dmd/gB/10/s1/gB_10_s1_2019-03-11T15;24;54+01;00_rgb_mosaic.avi",
+      "cosine": 0.97174,
+      "det_fp32": 1,
+      "det_int8": 1,
+      "exec_fp32_ms": 12.85,
+      "exec_int8_ms": 15.619
+    },
+    {
+      "clip": "/mnt/e61/workspace/dmd/gC/13/s1/gC_13_s1_2019-03-04T10;26;12+01;00_rgb_mosaic.avi",
+      "cosine": 0.9709,
+      "det_fp32": 2,
+      "det_int8": 1,
+      "exec_fp32_ms": 12.759,
+      "exec_int8_ms": 11.358
+    },
+    {
+      "clip": "/mnt/e61/workspace/dmd/gE/28/s1/gE_28_s1_2019-03-15T10;23;30+01;00_rgb_mosaic.avi",
+      "cosine": 0.97127,
+      "det_fp32": 3,
+      "det_int8": 1,
+      "exec_fp32_ms": 12.734,
+      "exec_int8_ms": 11.385
+    },
+    {
+      "clip": "/mnt/e61/workspace/dmd/gF/23/s1/gF_23_s1_2019-03-04T16;21;10+01;00_rgb_mosaic.avi",
+      "cosine": 0.97169,
+      "det_fp32": 1,
+      "det_int8": 1,
+      "exec_fp32_ms": 12.832,
+      "exec_int8_ms": 11.375
+    },
+    {
+      "clip": "/mnt/e61/workspace/dmd/gZ/33/s1/gZ_33_s1_2019-04-08T10;08;19+02;00_rgb_mosaic.avi",
+      "cosine": 0.97155,
+      "det_fp32": 2,
+      "det_int8": 1,
+      "exec_fp32_ms": 14.387,
+      "exec_int8_ms": 11.49
+    },
+    {
+      "clip": "/mnt/e61/workspace/dmd/gA/1/s2/gA_1_s2_2019-03-08T09;21;03+01;00_rgb_mosaic.avi",
+      "cosine": 0.97143,
+      "det_fp32": 1,
+      "det_int8": 1,
+      "exec_fp32_ms": 12.714,
+      "exec_int8_ms": 11.366
+    },
+    {
+      "clip": "/mnt/e61/workspace/dmd/gB/10/s2/gB_10_s2_2019-03-11T15;15;21+01;00_rgb_mosaic.avi",
+      "cosine": 0.97188,
+      "det_fp32": 1,
+      "det_int8": 1,
+      "exec_fp32_ms": 12.881,
+      "exec_int8_ms": 11.397
+    },
+    {
+      "clip": "/mnt/e61/workspace/dmd/gC/13/s2/gC_13_s2_2019-03-04T10;11;37+01;00_rgb_mosaic.avi",
+      "cosine": 0.9718,
+      "det_fp32": 1,
+      "det_int8": 1,
+      "exec_fp32_ms": 12.772,
+      "exec_int8_ms": 11.367
+    },
+    {
+      "clip": "/mnt/e61/workspace/dmd/gE/28/s2/gE_28_s2_2019-03-15T10;12;30+01;00_rgb_mosaic.avi",
+      "cosine": 0.97222,
+      "det_fp32": 1,
+      "det_int8": 1,
+      "exec_fp32_ms": 12.962,
+      "exec_int8_ms": 11.513
+    },
+    {
+      "clip": "/mnt/e61/workspace/dmd/gF/23/s1/gF_23_s1_2019-03-05T09;23;45+01;00_rgb_mosaic.avi",
+      "cosine": 0.97118,
+      "det_fp32": 2,
+      "det_int8": 1,
+      "exec_fp32_ms": 12.807,
+      "exec_int8_ms": 11.349
+    },
+    {
+      "clip": "/mnt/e61/workspace/dmd/gZ/33/s1/gZ_33_s1_2019-04-08T16;18;54+02;00_rgb_mosaic.avi",
+      "cosine": 0.97179,
+      "det_fp32": 1,
+      "det_int8": 1,
+      "exec_fp32_ms": 12.84,
+      "exec_int8_ms": 11.355
+    },
+    {
+      "clip": "/mnt/e61/workspace/dmd/gA/1/s3/gA_1_s3_2019-03-14T14;31;08+01;00_rgb_mosaic.avi",
+      "cosine": 0.97149,
+      "det_fp32": 1,
+      "det_int8": 1,
+      "exec_fp32_ms": 12.943,
+      "exec_int8_ms": 11.359
+    },
+    {
+      "clip": "/mnt/e61/workspace/dmd/gB/10/s3/gB_10_s3_2019-03-12T10;40;46+01;00_rgb_mosaic.avi",
+      "cosine": 0.97164,
+      "det_fp32": 2,
+      "det_int8": 1,
+      "exec_fp32_ms": 12.877,
+      "exec_int8_ms": 11.517
+    },
+    {
+      "clip": "/mnt/e61/workspace/dmd/gC/13/s3/gC_13_s3_2019-03-12T10;06;34+01;00_rgb_mosaic.avi",
+      "cosine": 0.9714,
+      "det_fp32": 4,
+      "det_int8": 1,
+      "exec_fp32_ms": 12.804,
+      "exec_int8_ms": 11.362
+    },
+    {
+      "clip": "/mnt/e61/workspace/dmd/gE/28/s6/gE_28_s6_2019-03-15T10;06;08+01;00_rgb_mosaic.avi",
+      "cosine": 0.97219,
+      "det_fp32": 3,
+      "det_int8": 1,
+      "exec_fp32_ms": 12.796,
+      "exec_int8_ms": 11.379
+    }
+  ]
+}
