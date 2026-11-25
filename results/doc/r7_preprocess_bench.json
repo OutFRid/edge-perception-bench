@@ -1,0 +1,79 @@
+{
+  "video": "/mnt/e61/workspace/dmd/gA/1/s1/gA_1_s1_2019-03-08T09;31;15+01;00_rgb_mosaic.avi",
+  "frames": 35,
+  "size": [
+    1280,
+    720
+  ],
+  "opencv": {
+    "resize": {
+      "mean": 3.561,
+      "median": 2.773,
+      "p95": 10.254,
+      "min": 2.493,
+      "max": 12.58
+    },
+    "pad": {
+      "mean": 0.684,
+      "median": 0.429,
+      "p95": 0.455,
+      "min": 0.406,
+      "max": 8.499
+    },
+    "norm": {
+      "mean": 3.204,
+      "median": 3.004,
+      "p95": 3.685,
+      "min": 2.871,
+      "max": 6.549
+    },
+    "transpose": {
+      "mean": 0.099,
+      "median": 0.091,
+      "p95": 0.124,
+      "min": 0.083,
+      "max": 0.165
+    },
+    "total_mean_ms": 7.548
+  },
+  "dvpp": {
+    "h2d": {
+      "mean": 2.154,
+      "median": 2.102,
+      "p95": 2.216,
+      "min": 2.014,
+      "max": 3.807
+    },
+    "vpc_resize": {
+      "mean": 1.244,
+      "median": 0.881,
+      "p95": 4.072,
+      "min": 0.822,
+      "max": 6.35
+    },
+    "vpc_paste": {
+      "mean": 0.727,
+      "median": 0.43,
+      "p95": 0.528,
+      "min": 0.413,
+      "max": 10.264
+    },
+    "d2h": {
+      "mean": 0.484,
+      "median": 0.476,
+      "p95": 0.516,
+      "min": 0.464,
+      "max": 0.543
+    },
+    "host_tail": {
+      "mean": 3.496,
+      "median": 3.169,
+      "p95": 4.841,
+      "min": 3.025,
+      "max": 10.264
+    },
+    "total_mean_ms": 8.105
+  },
+  "tensor_max_abs_diff": 0.0,
+  "speedup_vs_opencv": 0.931
+}

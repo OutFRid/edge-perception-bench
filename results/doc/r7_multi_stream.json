@@ -1,0 +1,178 @@
+[
+  {
+    "case": {
+      "streams": 1,
+      "iters_per_stream": 100,
+      "aggregate_wall_s": 1.562,
+      "aggregate_fps": 64.02,
+      "aggregate_latency_ms": 15.62,
+      "per_stream_lat_mean_ms": 15.615,
+      "per_stream_lat_p95_ms": 15.964,
+      "single_stream_fps": 64.04
+    },
+    "workers": [
+      {
+        "wid": 0,
+        "iters": 100,
+        "wall_s": 1.562,
+        "lat_mean_ms": 15.615,
+        "lat_median_ms": 15.485,
+        "lat_p95_ms": 15.964
+      }
+    ]
+  },
+  {
+    "case": {
+      "streams": 2,
+      "iters_per_stream": 100,
+      "aggregate_wall_s": 2.579,
+      "aggregate_fps": 77.55,
+      "aggregate_latency_ms": 25.79,
+      "per_stream_lat_mean_ms": 25.27,
+      "per_stream_lat_p95_ms": 38.199,
+      "single_stream_fps": 39.57
+    },
+    "workers": [
+      {
+        "wid": 0,
+        "iters": 100,
+        "wall_s": 2.476,
+        "lat_mean_ms": 24.756,
+        "lat_median_ms": 25.239,
+        "lat_p95_ms": 38.185
+      },
+      {
+        "wid": 1,
+        "iters": 100,
+        "wall_s": 2.579,
+        "lat_mean_ms": 25.783,
+        "lat_median_ms": 25.328,
+        "lat_p95_ms": 38.212
+      }
+    ]
+  },
+  {
+    "case": {
+      "streams": 4,
+      "iters_per_stream": 100,
+      "aggregate_wall_s": 4.54,
+      "aggregate_fps": 88.11,
+      "aggregate_latency_ms": 45.4,
+      "per_stream_lat_mean_ms": 42.405,
+      "per_stream_lat_p95_ms": 93.251,
+      "single_stream_fps": 23.58
+    },
+    "workers": [
+      {
+        "wid": 0,
+        "iters": 100,
+        "wall_s": 4.463,
+        "lat_mean_ms": 44.621,
+        "lat_median_ms": 32.54,
+        "lat_p95_ms": 118.435
+      },
+      {
+        "wid": 1,
+        "iters": 100,
+        "wall_s": 4.287,
+        "lat_mean_ms": 42.865,
+        "lat_median_ms": 37.608,
+        "lat_p95_ms": 82.691
+      },
+      {
+        "wid": 2,
+        "iters": 100,
+        "wall_s": 3.675,
+        "lat_mean_ms": 36.74,
+        "lat_median_ms": 29.453,
+        "lat_p95_ms": 77.271
+      },
+      {
+        "wid": 3,
+        "iters": 100,
+        "wall_s": 4.54,
+        "lat_mean_ms": 45.395,
+        "lat_median_ms": 37.896,
+        "lat_p95_ms": 94.608
+      }
+    ]
+  },
+  {
+    "case": {
+      "streams": 8,
+      "iters_per_stream": 100,
+      "aggregate_wall_s": 11.456,
+      "aggregate_fps": 69.83,
+      "aggregate_latency_ms": 114.56,
+      "per_stream_lat_mean_ms": 102.342,
+      "per_stream_lat_p95_ms": 251.436,
+      "single_stream_fps": 9.77
+    },
+    "workers": [
+      {
+        "wid": 0,
+        "iters": 100,
+        "wall_s": 10.334,
+        "lat_mean_ms": 103.33,
+        "lat_median_ms": 74.881,
+        "lat_p95_ms": 283.684
+      },
+      {
+        "wid": 1,
+        "iters": 100,
+        "wall_s": 10.758,
+        "lat_mean_ms": 107.553,
+        "lat_median_ms": 78.945,
+        "lat_p95_ms": 267.081
+      },
+      {
+        "wid": 2,
+        "iters": 100,
+        "wall_s": 10.906,
+        "lat_mean_ms": 109.055,
+        "lat_median_ms": 80.744,
+        "lat_p95_ms": 271.887
+      },
+      {
+        "wid": 3,
+        "iters": 100,
+        "wall_s": 8.496,
+        "lat_mean_ms": 84.948,
+        "lat_median_ms": 48.066,
+        "lat_p95_ms": 263.027
+      },
+      {
+        "wid": 4,
+        "iters": 100,
+        "wall_s": 9.531,
+        "lat_mean_ms": 95.306,
+        "lat_median_ms": 76.342,
+        "lat_p95_ms": 213.347
+      },
+      {
+        "wid": 5,
+        "iters": 100,
+        "wall_s": 10.176,
+        "lat_mean_ms": 101.749,
+        "lat_median_ms": 72.995,
+        "lat_p95_ms": 229.843
+      },
+      {
+        "wid": 6,
+        "iters": 100,
+        "wall_s": 10.225,
+        "lat_mean_ms": 102.244,
+        "lat_median_ms": 86.652,
+        "lat_p95_ms": 221.773
+      },
+      {
+        "wid": 7,
+        "iters": 100,
+        "wall_s": 11.456,
+        "lat_mean_ms": 114.548,
+        "lat_median_ms": 88.831,
+        "lat_p95_ms": 260.846
+      }
+    ]
+  }
+]
