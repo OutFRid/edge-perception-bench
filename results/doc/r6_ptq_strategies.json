@@ -1,0 +1,130 @@
+{
+  "generated": "2026-11-13 00:03",
+  "cal_images": 12,
+  "eval_images": 16,
+  "cal_eval_overlap": true,
+  "strategies": {
+    "S1_minmax_pc_convmatmul": {
+      "desc": "MinMax / per-channel / Conv+MatMul (R5 基线)",
+      "model_mb": 3.44,
+      "qdq_nodes": 123,
+      "accuracy": {
+        "output_cosine_mean": 0.99875,
+        "output_cosine_min": 0.99746,
+        "det_count_mean": 1.12,
+        "person_conf_mean": 0.689
+      },
+      "cpu_ms_1thread": {
+        "mean": 91.084,
+        "median": 90.15,
+        "p95": 95.904
+      }
+    },
+    "S2_entropy_pc_convmatmul": {
+      "desc": "Entropy / per-channel / Conv+MatMul",
+      "model_mb": 3.44,
+      "qdq_nodes": 123,
+      "accuracy": {
+        "output_cosine_mean": 0.99811,
+        "output_cosine_min": 0.99678,
+        "det_count_mean": 1,
+        "person_conf_mean": 0.6911,
+        "vs_S1_box_iou_mean": 0.926,
+        "vs_S1_box_iou_min": 0.401
+      },
+      "cpu_ms_1thread": {
+        "mean": 94.255,
+        "median": 92.672,
+        "p95": 102.487
+      }
+    },
+    "S3_pct9999_pc_convmatmul": {
+      "desc": "Percentile(99.99) / per-channel / Conv+MatMul",
+      "model_mb": 3.44,
+      "qdq_nodes": 123,
+      "accuracy": {
+        "output_cosine_mean": 0.99858,
+        "output_cosine_min": 0.99768,
+        "det_count_mean": 1.12,
+        "person_conf_mean": 0.7161,
+        "vs_S1_box_iou_mean": 0.9648,
+        "vs_S1_box_iou_min": 0.918
+      },
+      "cpu_ms_1thread": {
+        "mean": 90.085,
+        "median": 89.419,
+        "p95": 94.854
+      }
+    },
+    "S4_minmax_pt_convmatmul": {
+      "desc": "MinMax / per-tensor / Conv+MatMul",
+      "model_mb": 3.36,
+      "qdq_nodes": 123,
+      "accuracy": {
+        "output_cosine_mean": 0.99815,
+        "output_cosine_min": 0.99677,
+        "det_count_mean": 1.06,
+        "person_conf_mean": 0.7403,
+        "vs_S1_box_iou_mean": 0.8934,
+        "vs_S1_box_iou_min": 0.395
+      },
+      "cpu_ms_1thread": {
+        "mean": 89.164,
+        "median": 89.275,
+        "p95": 90.052
+      }
+    },
+    "S5_minmax_pc_convonly": {
+      "desc": "MinMax / per-channel / 仅 Conv",
+      "model_mb": 3.44,
+      "qdq_nodes": 123,
+      "accuracy": {
+        "output_cosine_mean": 0.99811,
+        "output_cosine_min": 0.99678,
+        "det_count_mean": 1,
+        "person_conf_mean": 0.6911,
+        "vs_S1_box_iou_mean": 0.926,
+        "vs_S1_box_iou_min": 0.401
+      },
+      "cpu_ms_1thread": {
+        "mean": 89.205,
+        "median": 89.156,
+        "p95": 89.879
+      }
+    },
+    "S6_minmax_pc_allops": {
+      "desc": "MinMax / per-channel / 全网络（ORT 默认 op 列表）",
+      "model_mb": 3.51,
+      "qdq_nodes": 244,
+      "accuracy": {
+        "output_cosine_mean": 0.99823,
+        "output_cosine_min": 0.99683,
+        "det_count_mean": 0,
+        "person_conf_mean": null
+      },
+      "cpu_ms_1thread": {
+        "mean": 100.188,
+        "median": 99.677,
+        "p95": 103.346
+      }
+    },
+    "S7_dynamic_weightonly": {
+      "desc": "动态量化（仅权重 int8，激活保持 FP32，限 MatMul）",
+      "model_mb": 12.25,
+      "qdq_nodes": 0,
+      "accuracy": {
+        "output_cosine_mean": 1.0,
+        "output_cosine_min": 1.0,
+        "det_count_mean": 0.94,
+        "person_conf_mean": 0.7104,
+        "vs_S1_box_iou_mean": 0.9588,
+        "vs_S1_box_iou_min": 0.886
+      },
+      "cpu_ms_1thread": {
+        "mean": 71.041,
+        "median": 70.187,
+        "p95": 73.515
+      }
+    }
+  }
+}
