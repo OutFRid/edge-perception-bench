@@ -1,0 +1,7499 @@
+{
+  "name": "yolov8n_amct_default",
+  "graph": [
+    {
+      "op": [
+        {
+          "name": "/model.22/dfl/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/dfl/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.2/cv3.2.2/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.2/cv3.2.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.2/cv3.2.1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.2/cv3.2.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.2/cv3.2.0/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.2/cv3.2.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.1/cv3.1.2/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.1/cv3.1.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.1/cv3.1.1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.1/cv3.1.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.1/cv3.1.0/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.1/cv3.1.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.0/cv3.0.2/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.0/cv3.0.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.0/cv3.0.1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.0/cv3.0.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.0/cv3.0.0/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.0/cv3.0.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.2/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.2/cv2.2.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.2/cv2.2.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.0/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.2/cv2.2.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.1/cv2.1.2/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.1/cv2.1.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.1/cv2.1.1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.1/cv2.1.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.1/cv2.1.0/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.1/cv2.1.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.0/cv2.0.2/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.0/cv2.0.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.0/cv2.0.1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.0/cv2.0.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.0/cv2.0.0/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.0/cv2.0.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/m.0/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/m.0/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.19/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.19/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/m.0/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/m.0/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.16/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.16/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/m.0/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/m.0/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/m.0/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/m.0/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.9/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.9/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.9/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.9/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/m.0/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/m.0/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.7/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.7/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.1/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.1/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.1/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.1/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.0/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.0/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.5/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.5/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.1/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.1/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.1/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.1/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.0/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.0/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.3/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.3/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/m.0/cv2/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/m.0/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/cv1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.1/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.0/conv/Conv.dequant.param",
+          "type": "initializer",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "images",
+          "type": "graph_input"
+        },
+        {
+          "name": "model.0.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.0.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.2.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.2.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.2.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.2.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.2.m.0.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.2.m.0.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.2.m.0.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.2.m.0.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.3.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.3.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.4.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.4.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.4.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.4.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.4.m.0.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.4.m.0.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.4.m.0.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.4.m.0.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.4.m.1.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.4.m.1.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.4.m.1.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.4.m.1.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.5.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.5.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.6.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.6.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.6.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.6.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.6.m.0.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.6.m.0.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.6.m.0.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.6.m.0.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.6.m.1.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.6.m.1.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.6.m.1.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.6.m.1.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.7.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.7.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.8.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.8.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.8.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.8.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.8.m.0.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.8.m.0.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.8.m.0.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.8.m.0.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.9.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.9.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.9.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.9.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.12.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.12.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.12.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.12.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.12.m.0.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.12.m.0.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.12.m.0.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.12.m.0.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.15.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.15.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.15.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.15.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.15.m.0.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.15.m.0.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.15.m.0.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.15.m.0.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.16.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.16.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.18.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.18.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.18.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.18.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.18.m.0.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.18.m.0.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.18.m.0.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.18.m.0.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.19.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.19.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.21.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.21.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.21.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.21.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.21.m.0.cv1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.21.m.0.cv1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.21.m.0.cv2.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.21.m.0.cv2.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.0.0.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.0.0.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.0.1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.0.1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.0.2.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.0.2.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.1.0.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.1.0.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.1.1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.1.1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.1.2.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.1.2.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.2.0.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.2.0.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.2.1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.2.1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.2.2.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv2.2.2.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.0.0.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.0.0.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.0.1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.0.1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.0.2.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.0.2.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.1.0.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.1.0.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.1.1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.1.1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.1.2.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.1.2.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.2.0.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.2.0.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.2.1.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.2.1.conv.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.2.2.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.cv3.2.2.bias",
+          "type": "initializer"
+        },
+        {
+          "name": "model.22.dfl.conv.weight",
+          "type": "initializer"
+        },
+        {
+          "name": "Constant_33",
+          "type": "Constant"
+        },
+        {
+          "name": "Constant_52",
+          "type": "Constant"
+        },
+        {
+          "name": "Constant_78",
+          "type": "Constant"
+        },
+        {
+          "name": "Constant_104",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.10/Constant",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.13/Constant",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant_1",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant_2",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant_3",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant_4",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant_5",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/dfl/Constant",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/dfl/Constant_1",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant_6",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant_7",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant_8",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant_9",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant_10",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant_11",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant_12",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant_13",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant_14",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.22/Constant_15",
+          "type": "Constant"
+        },
+        {
+          "name": "/model.0/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.0/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.0/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.0/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.0/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.0/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.2/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.2/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.2/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.2/Split",
+          "type": "Split"
+        },
+        {
+          "name": "/model.2/m.0/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/m.0/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/m.0/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.2/m.0/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/m.0/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.2/m.0/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.2/m.0/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/m.0/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/m.0/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.2/m.0/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/m.0/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.2/m.0/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.2/m.0/Add",
+          "type": "Add"
+        },
+        {
+          "name": "/model.2/Concat",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.2/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.2/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.2/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.2/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.2/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.3/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.3/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.3/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.3/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.3/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.3/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.3/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.3/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.3/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.4/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.4/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.4/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.4/Split",
+          "type": "Split"
+        },
+        {
+          "name": "/model.4/m.0/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.0/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.0/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.4/m.0/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.0/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.4/m.0/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.4/m.0/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.0/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.0/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.4/m.0/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.0/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.4/m.0/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.4/m.0/Add",
+          "type": "Add"
+        },
+        {
+          "name": "/model.4/m.1/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.1/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.1/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.1/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.1/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.4/m.1/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.1/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.1/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.4/m.1/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.4/m.1/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.1/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.1/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.1/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.1/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.4/m.1/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/m.1/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/m.1/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.4/m.1/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.4/m.1/Add",
+          "type": "Add"
+        },
+        {
+          "name": "/model.4/Concat",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.4/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.4/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.4/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.4/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.4/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.5/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.5/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.5/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.5/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.5/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.5/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.5/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.5/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.5/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.6/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.6/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.6/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.6/Split",
+          "type": "Split"
+        },
+        {
+          "name": "/model.6/m.0/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.0/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.0/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.6/m.0/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.0/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.6/m.0/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.6/m.0/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.0/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.0/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.6/m.0/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.0/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.6/m.0/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.6/m.0/Add",
+          "type": "Add"
+        },
+        {
+          "name": "/model.6/m.1/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.1/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.1/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.1/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.1/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.6/m.1/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.1/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.1/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.6/m.1/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.6/m.1/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.1/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.1/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.1/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.1/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.6/m.1/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/m.1/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/m.1/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.6/m.1/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.6/m.1/Add",
+          "type": "Add"
+        },
+        {
+          "name": "/model.6/Concat",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.6/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.6/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.6/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.6/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.6/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.7/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.7/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.7/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.7/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.7/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.7/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.7/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.7/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.7/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.8/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.8/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.8/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.8/Split",
+          "type": "Split"
+        },
+        {
+          "name": "/model.8/m.0/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/m.0/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/m.0/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.8/m.0/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/m.0/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.8/m.0/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.8/m.0/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/m.0/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/m.0/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.8/m.0/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/m.0/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.8/m.0/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.8/m.0/Add",
+          "type": "Add"
+        },
+        {
+          "name": "/model.8/Concat",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.8/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.8/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.8/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.8/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.8/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.9/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.9/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.9/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.9/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.9/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.9/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.9/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.9/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.9/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.9/m/MaxPool",
+          "type": "MaxPool"
+        },
+        {
+          "name": "/model.9/m_1/MaxPool",
+          "type": "MaxPool"
+        },
+        {
+          "name": "/model.9/m_2/MaxPool",
+          "type": "MaxPool"
+        },
+        {
+          "name": "/model.9/Concat",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.9/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.9/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.9/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.9/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.9/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.9/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.9/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.9/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.9/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.10/Resize",
+          "type": "Resize"
+        },
+        {
+          "name": "/model.11/Concat",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.12/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.12/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.12/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.12/Split",
+          "type": "Split"
+        },
+        {
+          "name": "/model.12/m.0/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/m.0/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/m.0/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.12/m.0/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/m.0/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.12/m.0/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.12/m.0/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/m.0/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/m.0/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.12/m.0/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/m.0/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.12/m.0/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.12/Concat",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.12/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.12/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.12/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.12/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.12/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.13/Resize",
+          "type": "Resize"
+        },
+        {
+          "name": "/model.14/Concat",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.15/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.15/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.15/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.15/Split",
+          "type": "Split"
+        },
+        {
+          "name": "/model.15/m.0/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/m.0/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/m.0/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.15/m.0/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/m.0/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.15/m.0/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.15/m.0/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/m.0/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/m.0/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.15/m.0/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/m.0/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.15/m.0/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.15/Concat",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.15/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.15/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.15/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.15/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.15/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.16/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.16/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.16/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.16/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.16/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.16/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.16/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.16/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.17/Concat",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.18/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.18/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.18/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.18/Split",
+          "type": "Split"
+        },
+        {
+          "name": "/model.18/m.0/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/m.0/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/m.0/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.18/m.0/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/m.0/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.18/m.0/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.18/m.0/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/m.0/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/m.0/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.18/m.0/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/m.0/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.18/m.0/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.18/Concat",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.18/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.18/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.18/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.18/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.18/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.19/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.19/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.19/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.19/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.19/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.19/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.19/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.19/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.20/Concat",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.21/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.21/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.21/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.21/Split",
+          "type": "Split"
+        },
+        {
+          "name": "/model.21/m.0/cv1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/m.0/cv1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/m.0/cv1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.21/m.0/cv1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/m.0/cv1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/m.0/cv1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.21/m.0/cv1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.21/m.0/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/m.0/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/m.0/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.21/m.0/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/m.0/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/m.0/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.21/m.0/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.21/Concat",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.21/cv2/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/cv2/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/cv2/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.21/cv2/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.21/cv2/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.21/cv2/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.21/cv2/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.0/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.0/cv2.0.0/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.0/cv2.0.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.0/cv2.0.0/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv2.0/cv2.0.0/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.0/cv2.0.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.0/cv2.0.0/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.22/cv2.0/cv2.0.0/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/cv2.0/cv2.0.1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.0/cv2.0.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.0/cv2.0.1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.0/cv2.0.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.0/cv2.0.1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv2.0/cv2.0.1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.0/cv2.0.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.0/cv2.0.1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.22/cv2.0/cv2.0.1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/cv2.0/cv2.0.2/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.0/cv2.0.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.0/cv2.0.2/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.0/cv2.0.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.0/cv2.0.2/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv2.0/cv2.0.2/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.0/cv2.0.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/Reshape",
+          "type": "Reshape"
+        },
+        {
+          "name": "/model.22/cv2.1/cv2.1.0/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.1/cv2.1.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.1/cv2.1.0/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv2.1/cv2.1.0/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.1/cv2.1.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.1/cv2.1.0/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.22/cv2.1/cv2.1.0/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/cv2.1/cv2.1.1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.1/cv2.1.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.1/cv2.1.1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.1/cv2.1.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.1/cv2.1.1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv2.1/cv2.1.1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.1/cv2.1.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.1/cv2.1.1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.22/cv2.1/cv2.1.1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/cv2.1/cv2.1.2/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.1/cv2.1.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.1/cv2.1.2/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.1/cv2.1.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.1/cv2.1.2/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv2.1/cv2.1.2/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.1/cv2.1.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/Reshape_1",
+          "type": "Reshape"
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.0/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.2/cv2.2.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.0/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv2.2/cv2.2.0/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.2/cv2.2.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.0/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.0/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.2/cv2.2.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.2/cv2.2.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv2.2/cv2.2.1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.2/cv2.2.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.2/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.2/cv2.2.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.2/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.2/cv2.2.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv2.2/cv2.2.2/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv2.2/cv2.2.2/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv2.2/cv2.2.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/Reshape_2",
+          "type": "Reshape"
+        },
+        {
+          "name": "/model.22/Concat",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.22/cv3.0/cv3.0.0/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.0/cv3.0.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.0/cv3.0.0/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv3.0/cv3.0.0/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.0/cv3.0.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.0/cv3.0.0/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.22/cv3.0/cv3.0.0/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/cv3.0/cv3.0.1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.0/cv3.0.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.0/cv3.0.1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.0/cv3.0.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.0/cv3.0.1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv3.0/cv3.0.1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.0/cv3.0.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.0/cv3.0.1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.22/cv3.0/cv3.0.1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/cv3.0/cv3.0.2/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.0/cv3.0.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.0/cv3.0.2/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.0/cv3.0.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.0/cv3.0.2/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv3.0/cv3.0.2/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.0/cv3.0.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/Reshape_3",
+          "type": "Reshape"
+        },
+        {
+          "name": "/model.22/cv3.1/cv3.1.0/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.1/cv3.1.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.1/cv3.1.0/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv3.1/cv3.1.0/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.1/cv3.1.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.1/cv3.1.0/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.22/cv3.1/cv3.1.0/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/cv3.1/cv3.1.1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.1/cv3.1.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.1/cv3.1.1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.1/cv3.1.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.1/cv3.1.1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv3.1/cv3.1.1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.1/cv3.1.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.1/cv3.1.1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.22/cv3.1/cv3.1.1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/cv3.1/cv3.1.2/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.1/cv3.1.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.1/cv3.1.2/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.1/cv3.1.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.1/cv3.1.2/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv3.1/cv3.1.2/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.1/cv3.1.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/Reshape_4",
+          "type": "Reshape"
+        },
+        {
+          "name": "/model.22/cv3.2/cv3.2.0/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.2/cv3.2.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.2/cv3.2.0/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv3.2/cv3.2.0/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.2/cv3.2.0/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.2/cv3.2.0/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.22/cv3.2/cv3.2.0/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/cv3.2/cv3.2.1/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.2/cv3.2.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.2/cv3.2.1/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.2/cv3.2.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.2/cv3.2.1/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv3.2/cv3.2.1/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.2/cv3.2.1/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.2/cv3.2.1/act/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.22/cv3.2/cv3.2.1/act/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/cv3.2/cv3.2.2/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.2/cv3.2.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.2/cv3.2.2/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.2/cv3.2.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/cv3.2/cv3.2.2/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/cv3.2/cv3.2.2/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/cv3.2/cv3.2.2/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/Reshape_5",
+          "type": "Reshape"
+        },
+        {
+          "name": "/model.22/Concat_1",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.22/dfl/Reshape",
+          "type": "Reshape"
+        },
+        {
+          "name": "/model.22/dfl/Transpose",
+          "type": "Transpose"
+        },
+        {
+          "name": "/model.22/dfl/Softmax",
+          "type": "Softmax"
+        },
+        {
+          "name": "/model.22/dfl/conv/Conv.quant",
+          "type": "AscendQuant",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/dfl/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/dfl/conv/Conv",
+          "type": "Conv",
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/dfl/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/dfl/conv/Conv.dequant",
+          "type": "AscendDequant",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/model.22/dfl/conv/Conv"
+                  }
+                }
+              ]
+            }
+          ],
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": 1,
+                  "s": [
+                    "/model.22/dfl/conv/Conv"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "/model.22/dfl/Reshape_1",
+          "type": "Reshape"
+        },
+        {
+          "name": "/model.22/Shape",
+          "type": "Shape"
+        },
+        {
+          "name": "/model.22/Gather",
+          "type": "Gather"
+        },
+        {
+          "name": "/model.22/Add",
+          "type": "Add"
+        },
+        {
+          "name": "/model.22/Div",
+          "type": "Div"
+        },
+        {
+          "name": "/model.22/Mul",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/Slice",
+          "type": "Slice"
+        },
+        {
+          "name": "/model.22/Mul_1",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/Slice_1",
+          "type": "Slice"
+        },
+        {
+          "name": "/model.22/Sub",
+          "type": "Sub"
+        },
+        {
+          "name": "/model.22/Add_1",
+          "type": "Add"
+        },
+        {
+          "name": "/model.22/Add_2",
+          "type": "Add"
+        },
+        {
+          "name": "/model.22/Div_1",
+          "type": "Div"
+        },
+        {
+          "name": "/model.22/Sub_1",
+          "type": "Sub"
+        },
+        {
+          "name": "/model.22/Concat_2",
+          "type": "Concat"
+        },
+        {
+          "name": "/model.22/Mul_2",
+          "type": "Mul"
+        },
+        {
+          "name": "/model.22/Sigmoid",
+          "type": "Sigmoid"
+        },
+        {
+          "name": "/model.22/Concat_3",
+          "type": "Concat"
+        },
+        {
+          "name": "output0",
+          "type": "graph_output"
+        }
+      ]
+    }
+  ]
+}
